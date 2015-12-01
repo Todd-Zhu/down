@@ -79,7 +79,7 @@
 			<div class="common-model">
 				<div class="model-title bg2">
 					<span>排队预定 IOS版</span>
-					<small>V6.1</small>
+					<small>V6.1.1</small>
 				</div>
 				<span class="icon pdydIOS-svg"></span>
 				<div class="model-detail">
@@ -96,7 +96,7 @@
 				</div>
 				<div class="perv-model">
 					<span>排队预定 IOS版</span>
-					<small>V6.0</small>
+					<small>V6.1.0</small>
 					<a class="a2" href="">下载</a>
 				</div>
 			</div>
@@ -261,10 +261,17 @@
 	<footer>
 		<a href="">
 			<img src="images/gotokeruyun.jpg" alt="欢迎">
+			<br>
+			<span>去客如云官网瞄一眼 》</span>
 		</a>
 	</footer>
 
 	<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
-	<script src="js/down.js"></script>
+	<script>
+		if($(window).width() < 1000){
+			$('#mobileIos').prependTo($('.common-v'));
+			$('#ypdAndroid').prependTo($('.common-v'));
+		}
+	</script>
 </body>
 </html>

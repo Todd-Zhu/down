@@ -11,6 +11,9 @@ header,footer{
 header{
 	background-color: white;
 }
+header img{
+	vertical-align: bottom;
+}
 header span{
 	color: #20b6f9;
 	font-size: 20px;
@@ -19,6 +22,10 @@ footer{
 	margin-top: 50px;
 	margin-bottom: 20px;
 	text-align: center;
+}
+footer span{
+	font-size: 20px;
+	color: #58CEFC;
 }
 .main{
 	width: 1000px;
@@ -105,7 +112,7 @@ footer{
 }
 .common-v .perv-model small{
 	font-size: 12px;
-	margin-left: 10px;
+	margin-left: 3px;
 	color: gray;
 	float: left;
 }
@@ -157,7 +164,7 @@ footer{
 	box-shadow: 1px 1px 2px #aaaaaa;
 	text-align: center;
 	float: left;
-	margin-bottom: 20px;
+	margin: 0 5px 20px 0;
 }
 .border-left1{
 	border-left: 5px solid #c0a7de;
