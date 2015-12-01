@@ -1,0 +1,282 @@
+body{
+	background-color: #f2f3f4;
+	letter-spacing: 1px;
+}
+header,footer{
+	width: 1000px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+header{
+	background-color: white;
+}
+header span{
+	color: #20b6f9;
+	font-size: 20px;
+}
+footer{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .title{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.main .title span{
+	letter-spacing: 5px;
+	font-size: 30px;
+	line-height: 34px;
+}
+.main .title small{
+	font-size: 14px;
+	line-height: 25px;
+}
+.common-v{
+	display: inline-block;
+}
+.common-v .common-model{
+	float: left;
+	border-radius: 2px;
+	background-color: white;
+	box-shadow: 1px 1px 2px #aaaaaa;
+	text-align: center;
+	margin: 0px 5px 20px 5px;
+}
+.common-v .common-model>img{
+	margin-top: 20px;
+}
+.common-v .model-title{
+	height: 45px;
+	line-height: 45px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+.common-v .model-title small{
+	margin-left: 20px;
+	font-size: 12px;
+}
+.common-v ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.common-v ul li{
+	font-size: 14px;
+	line-height: 24px;
+}
+.common-v .down-model{
+	margin-bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.common-v .down-model a{
+	line-height: 30px;
+	text-align:center;
+	display: block;
+	border-radius: 3px;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: white;
+}
+.common-v .down-model span{
+	line-height: 25px;
+}
+.common-v .perv-model{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	border-top: 1px solid #D4D0D0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.common-v .perv-model span{
+	float: left;
+}
+.common-v .perv-model small{
+	font-size: 12px;
+	margin-left: 10px;
+	color: gray;
+	float: left;
+}
+.common-v .perv-model a{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	float: right;
+	margin-top: 10px;
+}
+.bg1{
+	background-color: #c0a7de;
+}
+.bg2{
+	background-color: #f8c36f;
+}
+.bg3{
+	background-color: #92b3dd;
+}
+.bg4{
+	background-color: #81d3d2;
+}
+.a1{
+	color: #c0a7de;
+	border: 1px solid #c0a7de;
+}
+.a2{
+	color: #f8c36f;
+	border: 1px solid #f8c36f;
+}
+.a3{
+	color: #92b3dd;
+	border: 1px solid #92b3dd;
+}
+.a4{
+	color: #81d3d2;
+	border: 1px solid #81d3d2;
+}
+
+.other-v{
+	width: 100%;
+	display: inline-block;
+}
+.other-v .other-model{
+	font-size: 16px;
+	border-radius: 2px;
+	background-color: white;
+	box-shadow: 1px 1px 2px #aaaaaa;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+}
+.border-left1{
+	border-left: 5px solid #c0a7de;
+}
+.border-left2{
+	border-left: 5px solid #f8c36f;
+}
+.border-left3{
+	border-left: 5px solid #92b3dd;
+}
+.border-left4{
+	border-left: 5px solid #81d3d2;
+}
+.other-v .other-model span{
+	float: left;
+	line-height: 65px;
+	margin-left: 10px;
+}
+.other-v .other-model small{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: gray;
+	font-size: 12px;
+	float: left;
+	line-height: 65px;
+}
+.other-v .other-model a{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	float: right;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+/* 图标类 */
+.icon{
+	width: 65px;
+	height: 65px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.syaz-svg{
+	background-image: url(images/syaz.svg);
+}
+.dyfw-svg{
+	background-image: url(images/dyfw.svg);
+}
+.pdydIOS-svg{
+	background-image: url(images/pdydIOS.svg);
+}
+.pdydtw-svg{
+	background-image: url(images/pdydtw.svg);
+}
+.zzzc-svg{
+	background-image: url(images/zzzc.svg);
+}
+.zzkc-svg{
+	background-image: url(images/zzkc.svg);
+}
+.mobileiOS-svg{
+	background-image: url(images/mobileiOS.svg);
+}
+.ypdaz-svg{
+	background-image: url(images/ypdaz.svg);
+}
+
+
+/* 响应 */
+@media screen and (min-width: 1000px) {
+header,footer{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+.common-model{
+	width: 24%;
+}
+.other-model{
+	width: 49%
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+header,footer{
+	width: 100%;
+	margin: 0 auto;
+}
+.main{
+	width: 100%;
+	margin: 0 auto;
+}
+.common-model{
+	width: 48%;
+}
+.other-model{
+	width: 48%
+}
+}
+
+@media screen and (max-width: 500px) {
+header,footer{
+	width: 100%;
+	margin: 0 auto;
+}
+header span{
+	display: block;
+}
+.main{
+	width: 100%;
+	margin: 0 auto;
+}
+.common-model{
+	width: 97%;
+}
+.other-model{
+	width: 97%
+}
+}
